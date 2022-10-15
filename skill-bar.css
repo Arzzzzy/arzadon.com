@@ -1,0 +1,68 @@
+*{
+    font-family: 'Montserrat';
+    list-style: none;
+    padding: 0;
+}
+body{
+    background: #333;
+}
+.skills{
+    width: 1000px;
+    margin: 60px auto;
+    color: white;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 15px;
+    float: left;
+    background: hsl(39, 97%, 46%) ;
+}
+.gaming{
+    width: 100%;
+    animation: gaming 10s;
+}
+.adobe{
+    width: 65%;
+    animation: adobe 10s;
+}
+.programming{
+    width: 45%;
+    animation: programming 10s;
+}
+
+@keyframes gaming {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes adobe {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes programming {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
